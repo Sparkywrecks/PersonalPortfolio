@@ -1,0 +1,118 @@
+@media screen and (max-width: 600px) {
+  .nav a {
+    float: none;
+    width: 100%;
+  }
+}
+body{
+  font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.4;
+    color: var(--main-white);
+  }
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: transparent;
+}
+.nav-list {
+    display: flex;
+    margin-right: 2rem;
+}
+.nav-list a {
+    display: block;
+    font-size: 2rem;
+    padding: 1em;
+}
+ul {
+    list-style: none;
+}
+section{
+  display:block;
+}
+.welcome-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 101%;
+    height: 100vh;
+    margin-left: auto;
+    background-color: gray;
+    background-image: url("https://www.patternpictures.com/wp-content/uploads/Geometric-pentagon-shapes-sublte-white-background-seamless-pattern-patternpictures-0220.png");
+  background-size: cover;}
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 4rem;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+}
+.welcome-section > p {
+    font-size: 3rem;
+    font-weight: 200;
+    font-style: italic;
+  color: red;
+  padding-bottom: ;
+}
+.project-image {
+    height: calc(100% - 8.8rem);
+    width: 100%;
+  object-fit: cover;
+  border-radius: 25px;
+
+}
+.project-title {
+    font-size: 2rem;
+    padding: 2rem 0.5rem;
+}
+
+.projects-section {
+    text-align: center;
+    padding: 10rem 2rem;
+    background-image: url("https://www.patternpictures.com/wp-content/uploads/Geometric-pentagon-shapes-sublte-white-background-seamless-pattern-patternpictures-0220.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 80vh;
+    padding: 0 2rem;
+    background-image: url("https://www.patternpictures.com/wp-content/uploads/Geometric-pentagon-shapes-sublte-white-background-seamless-pattern-patternpictures-0220.png");
+
+}
+.contact-section-header > h2 {
+    font-size: 6rem;
+}
+h1, h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+.contact-details {
+    font-size: 2.4rem;
+    transition: transform 0.3s ease-out;
+    }
+.btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    border-radius: 2px;
+    margin-top: -90%;
+    margin-bottom: 20%;
+}
+h1 {
+    font-size: 6rem;
+    margin-bottom: -5%;
+}
